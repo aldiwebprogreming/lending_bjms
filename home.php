@@ -379,13 +379,74 @@
           </div>
         </div>
         
+
       </div>
+
+      <!-- End best seller -->
+
+      <div class="block__header col-lg-8 col-xl-7 mx-auto text-center mt-5">
+       
+        <h1 class="block__title mb-3">ON SALE</h1>
+        <p class="block__paragraph mb-0">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s
+          standard
+        </p>
+      </div>
+
+      <div class="row align-items-center justify-content-center flex-column-reverse flex-lg-row px-2">
+        <div class="card-group">
+          <div class="card">
+            <img class="card-img-top" src="assets/produk/pr1.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-center">WIKA PRESSURE GAUGE 232.50.100</h5>
+              <h4 class="text-center"><strike>Rp.000.0000</strike></h4>
+              <h3 class="text-center">Rp.000.0000</h3>
+              <center>
+              <button class="btn btn-primary">SHOP NOW</button>
+            </center>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="assets/produk/pr2.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-center">WIKA TEMPERATURE GAUGE A52 - 4 INCH</h5>
+              <h4 class="text-center"><strike>Rp.000.0000</strike></h4>
+              <h3 class="text-center">Rp.000.0000</h3>
+              <center>
+              <button class="btn btn-primary">SHOP NOW</button>
+            </center>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="assets/produk/pr3.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-center">WIKA TEMPERATURE GAUGE R52 - 4 INCH</h5>
+                <h4 class="text-center"><strike>Rp.000.0000</strike></h4>
+                <h3 class="text-center">Rp.000.0000</h3>
+                <center>
+                <button class="btn btn-primary">SHOP NOW</button>
+              </center>
+            </div>
+          
+          
+
+
+        
+      </div>
+
+
+
     </div>
   </div>
 
+  <!-- card -->
+
+
+
+ <!-- end card -->
   <!-- ======================================== -->
 
-  <div id="testimonials" class="block-20 space-between-blocks">
+ <!--  <div id="testimonials" class="block-20 space-between-blocks">
     <div class="container">
       <div class="block__header col-lg-8 col-xl-7 mx-auto text-center px-0">
         <h1 class="block__title mb-3">What Buyers Says About Us</h1>
@@ -485,11 +546,11 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- =================================== -->
 
-  <div id="pricing" class="block-17 px-4 space-between-blocks">
+  <!-- <div id="pricing" class="block-17 px-4 space-between-blocks">
     <div class="container">
       <div class="block-17__header col-lg-8 col-xl-7 mx-auto text-center px-0">
         <h1 class="block__title mb-3">PRICING</h1>
@@ -582,75 +643,12 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- =================================== -->
 
   <div id="faq" class="block-39 space-between-blocks">
-    <div class="container">
-      <!-- HEADER -->
-      <div class="col-lg-8 col-xl-7 mx-auto text-center mb-5">
-        <h1 class="block__title">Frequently Asked Questions</h1>
-      </div>
-      <div class="row px-2">
-        <div class="col-lg-6">
-          <div class="content-block">
-            <h4 class="content-block__title">
-              What caused that horrible financial crisis in 2008?
-            </h4>
-            <p class="content-block__paragraph">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-              industry’s standard
-              dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-              type specimen
-              book.
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="content-block">
-            <h4 class="content-block__title">
-              Why does Southwest only fly 737’s?
-            </h4>
-            <p class="content-block__paragraph">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-              industry’s standard
-              dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-              type specimen
-              book.
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="content-block">
-            <h4 class="content-block__title">
-              How are interest rates adjusted?
-            </h4>
-            <p class="content-block__paragraph">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-              industry’s standard
-              dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-              type specimen
-              book.
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="content-block">
-            <h4 class="content-block__title">
-              What’s up with the IMF bailing out all of these countries?
-            </h4>
-            <p class="content-block__paragraph">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-              industry’s standard
-              dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-              type specimen
-              book.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+    
   </div>
 
   <!-- =================================== -->

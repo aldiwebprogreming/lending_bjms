@@ -22,13 +22,29 @@
   <title>BJMS</title>
 </head>
 
+<style>
+  .img-hover-zoom {
+    width: 100%; 
+    overflow: hidden;
+  }
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+      object-fit: cover;
+      width: 100%;
+    
+  }
+  .img-hover-zoom:hover img {
+    transform: scale(1.5);
+  }
+</style>
+
 <body style="">
 
   <header class="hero container-fluid border-bottom">
     <nav class="hero-nav container px-4 px-lg-0 mx-auto">
       <ul class="nav w-100 list-unstyled align-items-center p-0">
         <li class="hero-nav__item">
-          <!-- <img class="hero-nav__logo" src="assets/imgs/logo.svg"> -->
+          <img class="hero-nav__logo" src="assets/logo/logo2.png">
         </li>
         <li id="hero-menu" class="flex-grow-1 hero__nav-list hero__nav-list--mobile-menu ft-menu">
           <ul class="hero__menu-content nav flex-column flex-lg-row ft-menu__slider animated list-unstyled p-2 p-lg-0">
@@ -323,55 +339,65 @@
       <div class="row align-items-center justify-content-center flex-column-reverse flex-lg-row px-2">
         <div class="card-group">
           <div class="card">
-            <img class="card-img-top" src="assets/produk/pr1.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title text-center">WIKA PRESSURE GAUGE 232.50.100</h5>
-              <h4 class="text-center"><strike>Rp.000.0000</strike></h4>
-              <h3 class="text-center">Rp.000.0000</h3>
+            <div class="img-hover-zoom">
+              <img class="card-img-top" src="assets/produk/pr1.png" alt="Card image cap">
+            </div>
+            <div class="card-body shadow">
+              <h5 class="card-title text-center"><strong>WIKA PRESSURE GAUGE 232.50.100</strong></h5>
+              <p class="text-center" style="color: blue;"><strike>Rp.000.0000</strike></p>
+              <p class="text-center">Rp.000.0000</p>
               <center>
               <button class="btn btn-primary">ADD TO CART</button>
             </center>
             </div>
           </div>
-          <div class="card">
-            <img class="card-img-top" src="assets/produk/pr2.png" alt="Card image cap">
+          <div class="card shadow">
+            <div class="img-hover-zoom">
+               <img class="card-img-top" src="assets/produk/pr2.png" alt="Card image cap">
+            </div>
             <div class="card-body">
-              <h5 class="card-title text-center">GLOBE VALVE PN16</h5>
-              <h4 class="text-center"><strike>Rp.000.0000</strike></h4>
-              <h3 class="text-center">Rp.000.0000</h3>
+              <h5 class="card-title text-center"><strong>GLOBE VALVE PN16</strong></h5>
+              <p class="text-center" style="color: blue;"><strike>Rp.000.0000</strike></p>
+              <p class="text-center">Rp.000.0000</p>
               <center>
               <button class="btn btn-primary">ADD TO CART</button>
             </center>
             </div>
           </div>
-          <div class="card">
-            <img class="card-img-top" src="assets/produk/pr3.png" alt="Card image cap">
+          <div class="card shadow">
+            <div class="img-hover-zoom">
+              <img class="card-img-top" src="assets/produk/pr3.png" alt="Card image cap">
+            </div>
             <div class="card-body">
-              <h5 class="card-title text-center">BALL VALVE JIS10K</h5>
-                <h4 class="text-center"><strike>Rp.000.0000</strike></h4>
-                <h3 class="text-center">Rp.000.0000</h3>
+              <h5 class="card-title text-center"><strong>BALL VALVE JIS10K</strong></h5>
+                <p class="text-center" style="color: blue;"><strike>Rp.000.0000</strike></p>
+                <p class="text-center">Rp.000.0000</p>
                 <center>
                 <button class="btn btn-primary">ADD TO CART</button>
               </center>
             </div>
           </div>
-          <div class="card">
-            <img class="card-img-top" src="assets/produk/pr4.png" alt="Card image cap">
+          <div class="card shadow">
+             <div class="img-hover-zoom">
+              <img class="card-img-top" src="assets/produk/pr4.png" alt="Card image cap">
+            </div>
             <div class="card-body">
-              <h5 class="card-title text-center">TEMPERATURE GAUGE A52  & R52</h5>
-                <h4 class="text-center"><strike>Rp.000.0000</strike></h4>
-                <h3 class="text-center">Rp.000.0000</h3>
+              <h5 class="card-title text-center"><strong>TEMPERATURE GAUGE A52  & R52</strong></h5>
+                <p class="text-center" style="color: blue;"><strike>Rp.000.0000</strike></p>
+                <p class="text-center">Rp.000.0000</p>
                 <center>
                 <button class="btn btn-primary">ADD TO CART</button>
               </center>
             </div>
           </div>
-          <div class="card">
-            <img class="card-img-top" src="assets/produk/pr5.png" alt="Card image cap">
+          <div class="card shadow">
+             <div class="img-hover-zoom">
+               <img class="card-img-top" src="assets/produk/pr5.png" alt="Card image cap">
+             </div>
             <div class="card-body">
-              <h5 class="card-title text-center">3 PCS BODY BALL VALVE</h5>
-                <h4 class="text-center"><strike>Rp.000.0000</strike></h4>
-                <h3 class="text-center">Rp.000.0000</h3>
+              <h5 class="card-title text-center"><strong>3 PCS BODY BALL VALVE</strong></h5>
+                <p class="text-center" style="color: blue;"><strike>Rp.000.0000</strike></p>
+                <p class="text-center">Rp.000.0000</p>
                 <center>
                 <button class="btn btn-primary">ADD TO CART</button>
               </center>
@@ -396,42 +422,44 @@
       <div class="row align-items-center justify-content-center flex-column-reverse flex-lg-row px-2">
         <div class="card-group">
           <div class="card">
-            <img class="card-img-top" src="assets/produk/pr1.png" alt="Card image cap">
+            <div class="img-hover-zoom">
+             <img class="card-img-top" src="assets/produk/pr1.png" alt="Card image cap">
+           </div>
             <div class="card-body">
-              <h5 class="card-title text-center">WIKA PRESSURE GAUGE 232.50.100</h5>
-              <h4 class="text-center"><strike>Rp.000.0000</strike></h4>
-              <h3 class="text-center">Rp.000.0000</h3>
+              <h5 class="card-title text-center"><strong>WIKA PRESSURE GAUGE 232.50.100</strong></h5>
+              <p class="text-center" style="color:blue;"><strike>Rp.000.0000</strike></p>
+              <p class="text-center">Rp.000.0000</p>
               <center>
               <button class="btn btn-primary">SHOP NOW</button>
             </center>
             </div>
           </div>
           <div class="card">
-            <img class="card-img-top" src="assets/produk/pr2.png" alt="Card image cap">
+            <div class="img-hover-zoom">
+              <img class="card-img-top" src="assets/produk/pr2.png" alt="Card image cap">
+            </div>
             <div class="card-body">
-              <h5 class="card-title text-center">WIKA TEMPERATURE GAUGE A52 - 4 INCH</h5>
-              <h4 class="text-center"><strike>Rp.000.0000</strike></h4>
-              <h3 class="text-center">Rp.000.0000</h3>
+              <h5 class="card-title text-center"><strong>WIKA TEMPERATURE GAUGE A52 - 4 INCH</strong></h5>
+              <p class="text-center" style="color:blue;"><strike>Rp.000.0000</strike></p>
+              <p class="text-center">Rp.000.0000</p>
               <center>
               <button class="btn btn-primary">SHOP NOW</button>
             </center>
             </div>
           </div>
           <div class="card">
-            <img class="card-img-top" src="assets/produk/pr3.png" alt="Card image cap">
+            <div class="img-hover-zoom">
+              <img class="card-img-top" src="assets/produk/pr3.png" alt="Card image cap">
+           </div>
             <div class="card-body">
-              <h5 class="card-title text-center">WIKA TEMPERATURE GAUGE R52 - 4 INCH</h5>
-                <h4 class="text-center"><strike>Rp.000.0000</strike></h4>
-                <h3 class="text-center">Rp.000.0000</h3>
+              <h5 class="card-title text-center"><strong>WIKA TEMPERATURE GAUGE R52 - 4 INCH</strong></h5>
+                <p class="text-center" style="color:blue;"><strike>Rp.000.0000</strike></p>
+                <p class="text-center">Rp.000.0000</p>
                 <center>
                 <button class="btn btn-primary">SHOP NOW</button>
               </center>
             </div>
-          
-          
 
-
-        
       </div>
 
 
@@ -665,21 +693,29 @@
               dummy text ever since the 1500s.
             </p>
             <div class="mb-5">
-              <h6 class="contact-info__title-2 mb-3">COLLABORATE</h6>
+              <h6 class="contact-info__title-2 mb-3">Jakarta Office</h6>
               <p class="d-flex flex-column">
-                <span class="contact-info__item mb-2">Support@example.com</span>
-                <span class="contact-info__item">Fax: (099) 453-1357</span>
+                <span class="contact-info__item mb-2">Jl. Daan Mogot KM. 18 Green Sedayu Bizpark DM 5 No. 2 <br> Jakarta Barat 11840 - Indonesia. </span>
+                <span class="contact-info__item mb-2">
+                  <i class="fas fa-phone"></i><span class="mx-2"> Telp. (021) 22522441. </span>
+                </span>
+                <span class="contact-info__item">
+                  <i class="fas fa-fax"></i><span class="mx-2"> Fax. (021) 22522442.</span>
+                </span>
               </p>
             </div>
             <div class="mb-5">
-              <h6 class="contact-info__title-2 mb-3">COLLABORATE</h6>
+              <h6 class="contact-info__title-2 mb-3">Medan Office & Warehouse</h6>
               <p class="d-flex flex-column">
+                <span>Jln Sangir Talaud I KIM IV Desa Pematang Johar, Labuhan Deli <br>Sumatera Utara 20373 - Indonesia  </span>
                 <span class="contact-info__item mb-2">
-                  <i class="fas fa-phone"></i><span class="mx-2">Support@example.com</span>
+                  <i class="fas fa-phone"></i><span class="mx-2"> Telp. (061) 7862299. </span>
                 </span>
-                <span class="contact-info__item">
-                  <i class="fas fa-envelope"></i><span class="mx-2">Fax: (099) 453-1357</span>
+               <span class="contact-info__item mb-2">
+                  <i class="fas fa-fax"></i><span class="mx-2"> Fax. (061) 7874188. </span>
                 </span>
+                
+                
               </p>
             </div>
           </div>
@@ -704,9 +740,9 @@
 
   <!-- =================================== -->
 
-  <div class="block-32 space-between-blocks">
+  <!-- <div class="block-32 space-between-blocks">
     <div class="container">
-      <!-- HEADER -->
+    
       <div class="col-lg-8 col-xl-7 mx-auto text-center mb-5">
         <h1 class="block__title mb-3">Buy Now And Save 50%</h1>
         <p class="block__paragraph mb-0">
@@ -718,7 +754,7 @@
         <a href="#" class="btn btn-primary">Buy Now</a>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- =================================== -->
 
@@ -726,45 +762,70 @@
     <div class="container">
       <div class="row px-0 mx-0 justify-content-center align-items-center">
         <div class="block-44__logo-container">
-          <img class="block-44__logo" src="assets/imgs/logo.svg">
+          <img class="block-44__logo" src="assets/logo/logo2.png">
         </div>
-        <ul class="block-44__list list-unstyled justify-content-center mb-0">
-          <li class="block-44__li-1">
-            <a href="#" class="block-44__link">Affiliate</a>
-          </li>
-          <li class="block-44__li-1">
-            <a href="#" class="block-44__link">Entreprise</a>
-          </li>
-          <li class="block-44__li-1">
-            <a href="#" class="block-44__link">Products</a>
-          </li>
-          <li class="block-44__li-1">
-            <a href="#" class="block-44__link">Account</a>
-          </li>
-        </ul>
+       
       </div>
     </div>
     <hr class="block-44__divider">
     <div class="container">
+      <p><strong>BJMS Online</p>
       <div class="row flex-column flex-md-row px-2 justify-content-center">
         <div class="flex-grow-1">
-          <ul class="block-44__extra-links d-flex list-unstyled p-0">
+          <div class="row">
+            <div class="col-sm-6">
+                 <ul class="block-44__extra-links d-flex list-unstyled p-0">
+                    <li class="mx-2">
+                      <a href="#" class="block-44__link m-0">
+                         <img src="assets/logo/bjmsonline.png" style="height: 50px;">
+                      </a>
+                    </li>
+                    <li class="mx-2">
+                      <a href="#" class="block-44__link m-0">
+                         <img src="assets/logo/playstore.png" style="height: 50px;">
+                      </a>
+                    </li>
+                    <li class="mx-2">
+                      <a href="#" class="block-44__link m-0">
+                        <img src="assets/logo/tokopedia.png" style="height: 50px;">
+                      </a>
+                    </li>
+                     <li class="mx-2">
+                      <a href="#" class="block-44__link m-0">
+                        <img src="assets/logo/bukalapak.png" style="height: 50px;">
+                      </a>
+                    </li>
+                  </ul>
+            </div>
+            <div class="col-sm-6">
+              <p><strong>Link</strong></p>
+              <small>Frequently Asked Questions</small>
+              <hr>
+              <small>Frequently Asked Questions</small>
+            </div>
+          </div>
+         <!--  <ul class="block-44__extra-links d-flex list-unstyled p-0">
             <li class="mx-2">
               <a href="#" class="block-44__link m-0">
-                <i class="fab fa-twitter"></i>
+                 <img src="assets/logo/bjmsonline.png" style="height: 50px;">
               </a>
             </li>
             <li class="mx-2">
               <a href="#" class="block-44__link m-0">
-                <i class="fab fa-instagram"></i>
+                 <img src="assets/logo/playstore.png" style="height: 50px;">
               </a>
             </li>
             <li class="mx-2">
               <a href="#" class="block-44__link m-0">
-                <i class="fas fa-envelope"></i>
+                <img src="assets/logo/tokopedia.png" style="height: 50px;">
               </a>
             </li>
-          </ul>
+             <li class="mx-2">
+              <a href="#" class="block-44__link m-0">
+                <img src="assets/logo/bukalapak.png" style="height: 50px;">
+              </a>
+            </li>
+          </ul> -->
         </div>
         <p class="block-41__copyrights">&copy; 2020 YourBrandName. All Rights Reserved.</p>
       </div>

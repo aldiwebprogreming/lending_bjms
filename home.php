@@ -214,7 +214,7 @@
 
   <div class="container mt-4 mb-4">
       <div class="row">
-  <div class="col-sm-6">
+  <div class="col-sm-6 mt-5 mb-5">
     <div class="card" style="">
       <div class="text ml-3" style="position: absolute; margin-top: 140px;">
           <h4><strong>BEST DEALS</strong></h4>
@@ -225,7 +225,7 @@
       
     </div>
   </div>
-  <div class="col-sm-6">
+  <div class="col-sm-6 mt-5 mb-5">
       <div class="card" style="">
         <div class="text ml-3" style="position: absolute; margin-top: 140px;">
           <h4><strong>HIGHEST QUALITY VALVE </strong></h4>
@@ -764,17 +764,21 @@
         <div class="block-44__logo-container">
           <img class="block-44__logo" src="assets/logo/logo2.png">
         </div>
-       
+            <form class="form-inline">
+              <div class="form-group mx-sm-3 mb-2">
+                <input type="email" class="form-control" id="email" placeholder="Enter email" required="">
+              </div>
+              <button type="submit" class="btn btn-primary mb-2">Subcribe</button>
+            </form> 
       </div>
     </div>
     <hr class="block-44__divider">
     <div class="container">
-      <p><strong>BJMS Online</p>
-      <div class="row flex-column flex-md-row px-2 justify-content-center">
-        <div class="flex-grow-1">
-          <div class="row">
-            <div class="col-sm-6">
-                 <ul class="block-44__extra-links d-flex list-unstyled p-0">
+      
+        <div class="row">
+          <div class="col-sm-4">
+            <p><strong>BJMS Online</strong></p>
+              <ul class="block-44__extra-links d-flex list-unstyled p-0">
                     <li class="mx-2">
                       <a href="#" class="block-44__link m-0">
                          <img src="assets/logo/bjmsonline.png" style="height: 50px;">
@@ -795,40 +799,24 @@
                         <img src="assets/logo/bukalapak.png" style="height: 50px;">
                       </a>
                     </li>
-                  </ul>
-            </div>
-            <div class="col-sm-6">
-              <p><strong>Link</strong></p>
-              <small>Frequently Asked Questions</small>
-              <hr>
-              <small>Frequently Asked Questions</small>
-            </div>
+              </ul>
           </div>
-         <!--  <ul class="block-44__extra-links d-flex list-unstyled p-0">
-            <li class="mx-2">
-              <a href="#" class="block-44__link m-0">
-                 <img src="assets/logo/bjmsonline.png" style="height: 50px;">
-              </a>
-            </li>
-            <li class="mx-2">
-              <a href="#" class="block-44__link m-0">
-                 <img src="assets/logo/playstore.png" style="height: 50px;">
-              </a>
-            </li>
-            <li class="mx-2">
-              <a href="#" class="block-44__link m-0">
-                <img src="assets/logo/tokopedia.png" style="height: 50px;">
-              </a>
-            </li>
-             <li class="mx-2">
-              <a href="#" class="block-44__link m-0">
-                <img src="assets/logo/bukalapak.png" style="height: 50px;">
-              </a>
-            </li>
-          </ul> -->
+          <div class="col-sm-4">
+             <p><strong>Contact Us</strong></p>
+             <small><li class="fas fa-phone"></li> Telephone: (061) 7862299</small><br>
+             <small><li class="fab fa-whatsapp"></li> WA: +62821 6030 7043</small><br>
+             <small><li class="fas fa-fax"></li> Fax: (061) 7874188</small><br>
+             <small><li class="fas fa-envelope"></li> E-mail: seller@bjmsgroup.com</small><br>
+
+          </div>
+          <div class="col-sm-4">
+             <p><strong>Social Media</strong></p>
+              <h6><a href="https://www.facebook.com/bjmsonline/" target="_blank"><li class="fab fa-facebook"></li></a> Facebook</h6>
+              <h6><a href="https://www.instagram.com/bjmsonline/" target="_blank"><li class="fab fa-instagram"></li></a> Instagram</h6>
+              <h6><a href="https://id.linkedin.com/company/pt-budijaya-makmursentosa" target="_blank"><li class="fab fa-linkedin"></li></a> linkedin</h6>
+
+          </div>
         </div>
-        <p class="block-41__copyrights">&copy; 2020 YourBrandName. All Rights Reserved.</p>
-      </div>
     </div>
   </div>
 

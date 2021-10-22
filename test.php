@@ -5,14 +5,28 @@
 	<title>Title</title>
 </head>
 
-<style></style>
+<style>
+	.hero {
+    position: relative;
+    height: 300px;
+    background-image: linear-gradient(#4568dc, #b06ab3);
+}
+
+svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20vw;
+    fill: #eaeaea;
+}
+</style>
 <body>
-	
-<div class="skewed-bg">
-	<div class="content">
-		<h1 class="title">Background Miring Dengan HTML-CSS3</h1>
-     <p class="text">
-	</div>
+<br>
+<br>
+<div class="hero">
+    <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polygon points="5,100 100,0 100,100" />
+    </svg>
 </div>
 
 </body>

@@ -14,12 +14,28 @@
 
   <!-- Poppins font from Google -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/media.css">
 
   <link rel="stylesheet" href="assets/app.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
-
   <title>BJMS</title>
+  <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '215446792369040');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
 </head>
 
 <style>
@@ -54,20 +70,24 @@
                   <a href="#contact-us" class="hero-nav__link">Contact Us</a>
                 </li>
                 <li class="hero-nav__item">
-                  <a href="#faq" class="hero-nav__link">FAQ</a>
+                  <a href="#faq" class="hero-nav__link">Pricing</a>
                 </li>
-                <li class="hero-nav__item">
+                <!-- <li class="hero-nav__item">
                   <a href="#pricing" class="hero-nav__link">Pricing</a>
-                </li>
-                <li class="hero-nav__item">
+                </li> -->
+          <!--  <li class="hero-nav__item">
                   <a href="#testimonials" class="hero-nav__link">Testimonials</a>
+                </li> -->
+                <li class="hero-nav__item">
+                  <a href="#product" class="hero-nav__link">Service</a>
                 </li>
                 <li class="hero-nav__item">
-                  <a href="#features" class="hero-nav__link">Features</a>
+                  <a href="#features" class="hero-nav__link">Product</a>
                 </li>
                 <li class="hero-nav__item">
-                  <a href="#product" class="hero-nav__link">Product</a>
+                  <a href="#home" class="hero-nav__link">Home</a>
                 </li>
+                
               </ul>
             </li>
           </ul>
@@ -90,7 +110,7 @@
         </li>
       </ul>
     </nav>
-    <div class="hero__content container mx-auto">
+    <div class="hero__content container mx-auto" id="home">
       <div class="row px-0 mx-0 align-items-center">
         <div class="col-lg-6 px-0">
           <div class="" style="background-color: red; width: 115px;">
@@ -216,8 +236,8 @@
       <div class="row">
   <div class="col-sm-6 mt-5 mb-5">
     <div class="card" style="">
-      <div class="text ml-3" style="position: absolute; margin-top: 140px;">
-          <h4><strong>BEST DEALS</strong></h4>
+      <div class="text ml-3" style="position: absolute;" id="card2">
+          <h4 ><strong>BEST DEALS</strong></h4>
           <h2><strong>GET 10% OFF <br>FOR MIN. <br>ORDER 10 PCS</strong></h2>
           <button class="btn btn-primary" style="background-color: white; color:black;">SHOP NOW</button>
       </div>
@@ -227,7 +247,7 @@
   </div>
   <div class="col-sm-6 mt-5 mb-5">
       <div class="card" style="">
-        <div class="text ml-3" style="position: absolute; margin-top: 140px;">
+        <div class="text ml-3" style="position: absolute;" id="card2">
           <h4><strong>HIGHEST QUALITY VALVE </strong></h4>
           <h2><strong>YOUR SAFETY <br> AND QUALITY <br>PARTNER</strong></h2>
           <button class="btn btn-primary" style="background-color: white; color:black;">SHOP NOW</button>
@@ -340,6 +360,7 @@
         <div class="card-group">
           <div class="card">
             <div class="img-hover-zoom">
+               <div class="sale" style="height: 30px; background-color: red; position: absolute; margin-right: 50px;width: 70px; text-align: center; color:white;"><label><strong>SALE 0%</strong></label></div>
               <img class="card-img-top" src="assets/produk/pr1.png" alt="Card image cap">
             </div>
             <div class="card-body shadow">
@@ -353,6 +374,7 @@
           </div>
           <div class="card shadow">
             <div class="img-hover-zoom">
+                <div class="sale" style="height: 30px; background-color: red; position: absolute; margin-right: 50px;width: 70px; text-align: center; color:white;"><label><strong>SALE 0%</strong></label></div>
                <img class="card-img-top" src="assets/produk/pr2.png" alt="Card image cap">
             </div>
             <div class="card-body">
@@ -365,7 +387,9 @@
             </div>
           </div>
           <div class="card shadow">
+
             <div class="img-hover-zoom">
+                <div class="sale" style="height: 30px; background-color: red; position: absolute; margin-right: 50px;width: 70px; text-align: center; color:white;"><label><strong>SALE 0%</strong></label></div>
               <img class="card-img-top" src="assets/produk/pr3.png" alt="Card image cap">
             </div>
             <div class="card-body">
@@ -379,6 +403,7 @@
           </div>
           <div class="card shadow">
              <div class="img-hover-zoom">
+                <div class="sale" style="height: 30px; background-color: red; position: absolute; margin-right: 50px;width: 70px; text-align: center; color:white;"><label><strong>SALE 0%</strong></label></div>
               <img class="card-img-top" src="assets/produk/pr4.png" alt="Card image cap">
             </div>
             <div class="card-body">
@@ -392,6 +417,7 @@
           </div>
           <div class="card shadow">
              <div class="img-hover-zoom">
+                <div class="sale" style="height: 30px; background-color: red; position: absolute; margin-right: 50px;width: 70px; text-align: center; color:white;"><label><strong>SALE 0%</strong></label></div>
                <img class="card-img-top" src="assets/produk/pr5.png" alt="Card image cap">
              </div>
             <div class="card-body">
@@ -681,62 +707,26 @@
 
   <!-- =================================== -->
 
-  <div id="contact-us" class="block-28 space-between-blocks border-top border-bottom">
-    <div class="container">
-      <div class="row h-100">
-        <div class="col-lg-6 h-100 block-28__content-side">
-          <div class="contact-info">
-            <h5 class="contact-info__title mb-3">Get in Touch</h5>
-            <p class="contact-info__paragraph mb-5">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-              industry’s standard
-              dummy text ever since the 1500s.
-            </p>
-            <div class="mb-5">
-              <h6 class="contact-info__title-2 mb-3">Jakarta Office</h6>
-              <p class="d-flex flex-column">
-                <span class="contact-info__item mb-2">Jl. Daan Mogot KM. 18 Green Sedayu Bizpark DM 5 No. 2 <br> Jakarta Barat 11840 - Indonesia. </span>
-                <span class="contact-info__item mb-2">
-                  <i class="fas fa-phone"></i><span class="mx-2"> Telp. (021) 22522441. </span>
-                </span>
-                <span class="contact-info__item">
-                  <i class="fas fa-fax"></i><span class="mx-2"> Fax. (021) 22522442.</span>
-                </span>
-              </p>
-            </div>
-            <div class="mb-5">
-              <h6 class="contact-info__title-2 mb-3">Medan Office & Warehouse</h6>
-              <p class="d-flex flex-column">
-                <span>Jln Sangir Talaud I KIM IV Desa Pematang Johar, Labuhan Deli <br>Sumatera Utara 20373 - Indonesia  </span>
-                <span class="contact-info__item mb-2">
-                  <i class="fas fa-phone"></i><span class="mx-2"> Telp. (061) 7862299. </span>
-                </span>
-               <span class="contact-info__item mb-2">
-                  <i class="fas fa-fax"></i><span class="mx-2"> Fax. (061) 7874188. </span>
-                </span>
-                
-                
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 h-100 block-28__form-side">
-          <form onsubmit="submitContactForm(event)" class="contact-form text-center">
-            <div class="contact-form__header mb-5">
-              <h6 class="contact-form__title mb-3">Contact Us</h6>
-              <p class="contact-form__paragraph mb-0 mx-auto">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              </p>
-            </div>
-            <input type="text" class="contact-form__input" placeholder="Full Name">
-            <input type="email" class="contact-form__input" placeholder="Email">
-            <textarea class="contact-form__input" placeholder="Message"></textarea>
-            <button class="btn btn-primary w-100">SEND MESSAGE</button>
-          </form>
-        </div>
-      </div>
+<div class="card bg-dark text-white mb-5" id="hero">
+  <img class="card-img" src="assets/produk/baru.webp" alt="Card image">
+  <div class="card-img-overlay float-sm-right" id="bg-al" style="background-color: rgba(0, 0, 0, 0.5);">
+    <div  id="card3">
+    <p id="best" class="mb-3" style="font-size: 4vw"><strong>Best Arial View in Town</strong></p>
+    <p style="font-size: 4vw"><strong>30% OFF</strong></h1>
+    <p style="font-size: 2vw">on professional camera drones</p>
+     <button class="btn btn-danger  mb-5" id="btn-gbr"><i class="fas fa-shopping-bag"></i> Shop</button>
     </div>
   </div>
+</div>
+
+
+
+
+
+ 
+
+
+
 
   <!-- =================================== -->
 
@@ -758,7 +748,7 @@
 
   <!-- =================================== -->
 
-  <div class="block-44 py-5">
+  <div class="block-44 py-5" id="contact-us">
     <div class="container">
       <div class="row px-0 mx-0 justify-content-center align-items-center">
         <div class="block-44__logo-container">
@@ -777,30 +767,21 @@
       
         <div class="row">
           <div class="col-sm-4">
-            <p><strong>BJMS Online</strong></p>
-              <ul class="block-44__extra-links d-flex list-unstyled p-0">
-                    <li class="mx-2">
-                      <a href="#" class="block-44__link m-0">
-                         <img src="assets/logo/bjmsonline.png" style="height: 50px;">
-                      </a>
-                    </li>
-                    <li class="mx-2">
-                      <a href="#" class="block-44__link m-0">
-                         <img src="assets/logo/playstore.png" style="height: 50px;">
-                      </a>
-                    </li>
-                    <li class="mx-2">
-                      <a href="#" class="block-44__link m-0">
-                        <img src="assets/logo/tokopedia.png" style="height: 50px;">
-                      </a>
-                    </li>
-                     <li class="mx-2">
-                      <a href="#" class="block-44__link m-0">
-                        <img src="assets/logo/bukalapak.png" style="height: 50px;">
-                      </a>
-                    </li>
-              </ul>
+            <p><strong>Jakarta Office</strong></p>
+            <label>Jl. Daan Mogot KM. 18 Green Sedayu Bizpark DM 5 No. 2 Jakarta Barat 11840 - Indonesia.</label><br>
+            <label>Telp. (021) 22522441.</label><br>
+            <label>Fax. (021) 22522442.</label>
+              
           </div>
+
+          <div class="col-sm-4">
+            <p><strong>MEDAN OFFICE & WAREHOUSE</strong></p>
+            <label>Jln Sangir Talaud I KIM IV Desa Pematang Johar, Labuhan Deli Sumatera Utara 20373 - Indonesia.</label><br>
+            <label>Telp. (061) 7862299.</label><br>
+            <label>Fax. (061) 7874188.</label>
+              
+          </div>
+
           <div class="col-sm-4">
              <p><strong>Contact Us</strong></p>
              <small><li class="fas fa-phone"></li> Telephone: (061) 7862299</small><br>
@@ -809,13 +790,13 @@
              <small><li class="fas fa-envelope"></li> E-mail: seller@bjmsgroup.com</small><br>
 
           </div>
-          <div class="col-sm-4">
+          <!-- <div class="col-sm-4">
              <p><strong>Social Media</strong></p>
               <h6><a href="https://www.facebook.com/bjmsonline/" target="_blank"><li class="fab fa-facebook"></li></a> Facebook</h6>
               <h6><a href="https://www.instagram.com/bjmsonline/" target="_blank"><li class="fab fa-instagram"></li></a> Instagram</h6>
               <h6><a href="https://id.linkedin.com/company/pt-budijaya-makmursentosa" target="_blank"><li class="fab fa-linkedin"></li></a> linkedin</h6>
 
-          </div>
+          </div> -->
         </div>
     </div>
   </div>
@@ -836,5 +817,17 @@
     crossorigin="anonymous"></script>
 
 </body>
+
+
+<style>
+  @media (min-width: 1280px) {
+
+    #bg-al{
+
+      width: 600px;
+    }
+
+  }
+</style>
 
 </html>

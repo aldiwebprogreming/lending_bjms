@@ -125,7 +125,7 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
             standard
           </p>
           <div class="hero__btns-container">
-            <a class="hero__btn btn btn-primary mb-2 mb-lg-0" href="#">
+            <a href="https://www.tokopedia.com/wikagaugedanvtvvalvemdn/etalase/wika" target="_blank" class="hero__btn btn btn-primary mb-2 mb-lg-0" href="#">
                 SHOP NOW
             </a>
            <!--  <a class="hero__btn btn btn-secondary mx-lg-3" href="#">
@@ -239,7 +239,7 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
       <div class="text ml-3" style="position: absolute;" id="card2">
           <h4 ><strong>BEST DEALS</strong></h4>
           <h2><strong>GET 10% OFF <br>FOR MIN. <br>ORDER 10 PCS</strong></h2>
-          <button class="btn btn-primary" style="background-color: white; color:black;">SHOP NOW</button>
+          <a href="https://www.tokopedia.com/wikagaugedanvtvvalvemdn/etalase/wika" target="_blank" class="btn btn-primary" style="background-color: white; color:black;">SHOP NOW</a>
       </div>
       <img class="card-img-top" src="assets/produk/gambar.webp" alt="Card image cap">
       
@@ -250,7 +250,7 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
         <div class="text ml-3" style="position: absolute;" id="card2">
           <h4><strong>HIGHEST QUALITY VALVE </strong></h4>
           <h2><strong>YOUR SAFETY <br> AND QUALITY <br>PARTNER</strong></h2>
-          <button class="btn btn-primary" style="background-color: white; color:black;">SHOP NOW</button>
+          <a href="https://www.tokopedia.com/wikagaugedanvtvvalvemdn" target="_blank" class="btn btn-primary" style="background-color: white; color:black;">SHOP NOW</a>
        </div>
 
       <img class="card-img-top" src="assets/produk/gambar2.webp" alt="Card image cap">
@@ -368,7 +368,7 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
               <p class="text-center" style="color: blue;"><strike>Rp.000.0000</strike></p>
               <p class="text-center">Rp.000.0000</p>
               <center>
-              <button class="btn btn-primary">ADD TO CART</button>
+              <a href="https://www.tokopedia.com/wikagaugedanvtvvalvemdn/pressure-gauge-wika-232-50-1-2-npt-size-4-0-to-10-bar" class="btn btn-primary" target="_blank">ADD TO CART</a>
             </center>
             </div>
           </div>
@@ -382,7 +382,7 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
               <p class="text-center" style="color: blue;"><strike>Rp.000.0000</strike></p>
               <p class="text-center">Rp.000.0000</p>
               <center>
-              <button class="btn btn-primary">ADD TO CART</button>
+              <a href="https://www.tokopedia.com/wikagaugedanvtvvalvemdn/globe-valve-vtv-cast-iron-pn16-size-4-inch" class="btn btn-primary" target="_blank">ADD TO CART</a>
             </center>
             </div>
           </div>
@@ -397,7 +397,7 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
                 <p class="text-center" style="color: blue;"><strike>Rp.000.0000</strike></p>
                 <p class="text-center">Rp.000.0000</p>
                 <center>
-                <button class="btn btn-primary">ADD TO CART</button>
+               <a href="https://www.tokopedia.com/wikagaugedanvtvvalvemdn/ball-valve-2pc-body-vtv-3-inch-jis-10k-cast-steel" class="btn btn-primary" target="_blank">ADD TO CART</a>
               </center>
             </div>
           </div>
@@ -411,7 +411,7 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
                 <p class="text-center" style="color: blue;"><strike>Rp.000.0000</strike></p>
                 <p class="text-center">Rp.000.0000</p>
                 <center>
-                <button class="btn btn-primary">ADD TO CART</button>
+                 <a href="https://www.tokopedia.com/wikagaugedanvtvvalvemdn/temperature-gauge-thermometer-wika-r52-4-inch-0-to-100degc" class="btn btn-primary" target="_blank">ADD TO CART</a>
               </center>
             </div>
           </div>
@@ -425,7 +425,8 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
                 <p class="text-center" style="color: blue;"><strike>Rp.000.0000</strike></p>
                 <p class="text-center">Rp.000.0000</p>
                 <center>
-                <button class="btn btn-primary">ADD TO CART</button>
+                  <a href="https://www.tokopedia.com/wikagaugedanvtvvalvemdn/stop-kran-ball-valve-3pc-body-vtv-1-2-inch-screw-end-ss316" class="btn btn-primary" target="_blank">ADD TO CART</a>
+
               </center>
             </div>
           </div>
@@ -448,6 +449,7 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
       <div class="row align-items-center justify-content-center flex-column-reverse flex-lg-row px-2">
         <div class="card-group">
           <div class="card">
+             <div class="sale" style="height: 30px; background-color: red; position: absolute; margin-right: 50px;width: 70px; text-align: center; color:white;"><label><strong>SALE 0%</strong></label></div>
             <div class="img-hover-zoom">
              <img class="card-img-top" src="assets/produk/pr1.png" alt="Card image cap">
            </div>
@@ -456,12 +458,13 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
               <p class="text-center" style="color:blue;"><strike>Rp.000.0000</strike></p>
               <p class="text-center">Rp.000.0000</p>
               <center>
-              <button class="btn btn-primary">SHOP NOW</button>
+              <a href="https://www.tokopedia.com/wikagaugedanvtvvalvemdn/pressure-gauge-wika-232-50-1-2-npt-size-4-0-to-10-bar" class="btn btn-primary" target="_blank">SHOP NOW</a>
             </center>
             </div>
           </div>
           <div class="card">
             <div class="img-hover-zoom">
+              <div class="sale" style="height: 30px; background-color: red; position: absolute; margin-right: 50px;width: 70px; text-align: center; color:white;"><label><strong>SALE 0%</strong></label></div>
               <img class="card-img-top" src="assets/produk/pr2.png" alt="Card image cap">
             </div>
             <div class="card-body">
@@ -469,12 +472,13 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
               <p class="text-center" style="color:blue;"><strike>Rp.000.0000</strike></p>
               <p class="text-center">Rp.000.0000</p>
               <center>
-              <button class="btn btn-primary">SHOP NOW</button>
+              <a href="https://www.tokopedia.com/wikagaugedanvtvvalvemdn/temperature-gauge-thermometer-wika-a52-4-inch-0-to-200-degc" target="_blank" class="btn btn-primary">SHOP NOW</a>
             </center>
             </div>
           </div>
           <div class="card">
             <div class="img-hover-zoom">
+              <div class="sale" style="height: 30px; background-color: red; position: absolute; margin-right: 50px;width: 70px; text-align: center; color:white;"><label><strong>SALE 0%</strong></label></div>
               <img class="card-img-top" src="assets/produk/pr3.png" alt="Card image cap">
            </div>
             <div class="card-body">
@@ -482,7 +486,7 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
                 <p class="text-center" style="color:blue;"><strike>Rp.000.0000</strike></p>
                 <p class="text-center">Rp.000.0000</p>
                 <center>
-                <button class="btn btn-primary">SHOP NOW</button>
+               <a href="https://www.tokopedia.com/wikagaugedanvtvvalvemdn/temperature-gauge-thermometer-wika-r52-4-inch-0-to-00degc" target="_blank" class="btn btn-primary">SHOP NOW</a>
               </center>
             </div>
 
@@ -711,10 +715,11 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
   <img class="card-img" src="assets/produk/baru.webp" alt="Card image">
   <div class="card-img-overlay float-sm-right" id="bg-al" style="background-color: rgba(0, 0, 0, 0.5);">
     <div  id="card3">
+      <div class="bulat rounded-circle" style="height: 200px; width: 200px; background-color: red; border-radius: 100px; position: absolute; margin-left: 500px;"><h1 style="margin-top: 40px; text-align:center;"><strong>Disc<br>10 %</strong></h1></div>
     <p id="best" class="mb-3" style="font-size: 4vw"><strong>Best Arial View in Town</strong></p>
     <p style="font-size: 4vw"><strong>30% OFF</strong></h1>
     <p style="font-size: 2vw">on professional camera drones</p>
-     <button class="btn btn-danger  mb-5" id="btn-gbr"><i class="fas fa-shopping-bag"></i> Shop</button>
+     <a href="https://www.tokopedia.com/wikagaugedanvtvvalvemdn/etalase/wika" target="_blank" class="btn btn-danger  mb-5" id="btn-gbr"><i class="fas fa-shopping-bag"></i> Shop</a>
     </div>
   </div>
 </div>
@@ -829,5 +834,17 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
 
   }
 </style>
+
+<style>
+  @media (max-width: 1270px) {
+
+    .bulat{
+
+     display: none;
+    }
+
+  }
+</style>
+
 
 </html>

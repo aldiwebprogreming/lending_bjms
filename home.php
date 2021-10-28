@@ -1,3 +1,8 @@
+<?php 
+  session_start();
+  
+ ?>
+
 <!doctype html>
 <html lang="en">
 
@@ -113,7 +118,7 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
     </nav>
     <div class="hero__content container mx-auto" id="home">
       <div class="row px-0 mx-0 align-items-center">
-        <div class="col-lg-6 px-0">
+        <div class="col-lg-6 px-0" style="">
           <div class="" style="background-color: red; width: 115px;">
           <h6 class="ml-2" style="color: white;"><strong>BEST PRICE : </strong></h6>
           </div>
@@ -121,9 +126,9 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
            INCREDIBLE PRICES ON  <span class="highlight">ALL YOUR</span> FAVORITE ITEMS
           </h1>
           <p class="hero__paragraph mb-5">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+           <!--  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
             industry's
-            standard
+            standard -->
           </p>
           <div class="hero__btns-container">
             <a href="https://www.tokopedia.com/wikagaugedanvtvvalvemdn/etalase/wika" target="_blank" class="hero__btn btn btn-primary mb-2 mb-lg-0" href="#">
@@ -136,7 +141,7 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
         </div>
         <div class="col-lg-5 mt-5 mt-lg-0 mx-0">
           <div class="hero__img-container">
-            <img src="assets/produk/produk2.png" class="hero__img w-100">
+            <img src="assets/produk/navbar4.png" class="hero__img w-100">
           </div>
         </div>
       </div>
@@ -242,7 +247,7 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
           <h2><strong>GET 10% OFF <br>FOR MIN. <br>ORDER 10 PCS</strong></h2>
           <a href="https://www.tokopedia.com/wikagaugedanvtvvalvemdn/etalase/wika" target="_blank" class="btn btn-primary" style="background-color: white; color:black;">SHOP NOW</a>
       </div>
-      <img class="card-img-top" src="assets/produk/gambar.webp" alt="Card image cap">
+      <img class="card-img-top" src="assets/produk/poster-baru3.png" alt="Card image cap">
       
     </div>
   </div>
@@ -254,7 +259,7 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
           <a href="https://www.tokopedia.com/wikagaugedanvtvvalvemdn" target="_blank" class="btn btn-primary" style="background-color: white; color:black;">SHOP NOW</a>
        </div>
 
-      <img class="card-img-top" src="assets/produk/gambar2.webp" alt="Card image cap">
+      <img class="card-img-top" src="assets/produk/poster-baru2.png" alt="Card image cap">
     </div>
   </div>
 </div>
@@ -309,7 +314,7 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
                   <img src="assets/produk/jam.png" class="img-fluid" alt="Responsive image">
                 </div>
                 <div class="col-sm-6">
-                 <h6 class="text-center mt-2"><strong>LOW PRICES GUARENTEED</strong></h6>
+                 <h6 class="text-center mt-2"><strong>AVAILABLE TO YOU 24/7</strong></h6>
                 </div>
               </div>
               
@@ -353,21 +358,21 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
        
         <h1 class="block__title mb-3">Best Seller</h1>
         <p class="block__paragraph mb-0">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s
-          standard
+         <!--  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s
+          standard -->
         </p>
       </div>
       <div class="row align-items-center justify-content-center flex-column-reverse flex-lg-row px-2">
         <div class="card-group">
           <div class="card">
             <div class="img-hover-zoom">
-               <div class="sale" style="height: 30px; background-color: red; position: absolute; margin-right: 50px;width: 70px; text-align: center; color:white;"><label><strong>SALE 0%</strong></label></div>
-              <img class="card-img-top" src="assets/produk/pr1.png" alt="Card image cap">
+               <!-- <div class="sale" style="height: 30px; background-color: red; position: absolute; margin-right: 50px;width: 70px; text-align: center; color:white;"><label><strong>SALE 0%</strong></label></div> -->
+              <img class="card-img-top" src="assets/produk/1.png" alt="Card image cap">
             </div>
             <div class="card-body shadow">
               <h5 class="card-title text-center"><strong>WIKA PRESSURE GAUGE 232.50.100</strong></h5>
-              <p class="text-center" style="color: blue;"><strike>Rp.000.0000</strike></p>
-              <p class="text-center">Rp.000.0000</p>
+              <p class="text-center" style="color: blue;"><strike>Rp.880.000</strike></p>
+              <p class="text-center">Rp.660.000</p>
               <center>
               <a href="https://www.tokopedia.com/wikagaugedanvtvvalvemdn/pressure-gauge-wika-232-50-1-2-npt-size-4-0-to-10-bar" class="btn btn-primary" target="_blank">ADD TO CART</a>
             </center>
@@ -375,13 +380,14 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
           </div>
           <div class="card shadow">
             <div class="img-hover-zoom">
-                <div class="sale" style="height: 30px; background-color: red; position: absolute; margin-right: 50px;width: 70px; text-align: center; color:white;"><label><strong>SALE 0%</strong></label></div>
-               <img class="card-img-top" src="assets/produk/pr2.png" alt="Card image cap">
+                <!-- <div class="sale" style="height: 30px; background-color: red; position: absolute; margin-right: 50px;width: 70px; text-align: center; color:white;"><label><strong>SALE 0%</strong></label></div> -->
+               <img class="card-img-top" src="assets/produk/seller02.png" alt="Card image cap">
             </div>
             <div class="card-body">
-              <h5 class="card-title text-center"><strong>GLOBE VALVE PN16</strong></h5>
-              <p class="text-center" style="color: blue;"><strike>Rp.000.0000</strike></p>
-              <p class="text-center">Rp.000.0000</p>
+              <h6 class="card-title text-center"><strong>VTV Globe Valve Cast Iron PN16 - Size 4 Inch</strong></h6>
+
+              <p class="text-center" style="color: blue;"><strike>Rp.2.275.000</strike></p>
+              <p class="text-center">Rp.2.068.000</p>
               <center>
               <a href="https://www.tokopedia.com/wikagaugedanvtvvalvemdn/globe-valve-vtv-cast-iron-pn16-size-4-inch" class="btn btn-primary" target="_blank">ADD TO CART</a>
             </center>
@@ -390,13 +396,13 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
           <div class="card shadow">
 
             <div class="img-hover-zoom">
-                <div class="sale" style="height: 30px; background-color: red; position: absolute; margin-right: 50px;width: 70px; text-align: center; color:white;"><label><strong>SALE 0%</strong></label></div>
-              <img class="card-img-top" src="assets/produk/pr3.png" alt="Card image cap">
+                <!-- <div class="sale" style="height: 30px; background-color: red; position: absolute; margin-right: 50px;width: 70px; text-align: center; color:white;"><label><strong>SALE 0%</strong></label></div> -->
+              <img class="card-img-top" src="assets/produk/seller03.png" alt="Card image cap">
             </div>
             <div class="card-body">
-              <h5 class="card-title text-center"><strong>BALL VALVE JIS10K</strong></h5>
-                <p class="text-center" style="color: blue;"><strike>Rp.000.0000</strike></p>
-                <p class="text-center">Rp.000.0000</p>
+              <h6 class="card-title text-center"><strong>VTV 2PC Body Ball Valve JIS 10K Cast Steel - 3 Inch</strong></h6>
+                <p class="text-center" style="color: blue;"><strike>Rp.1,579,050</strike></p>
+                <p class="text-center">Rp.1.435.500</p>
                 <center>
                <a href="https://www.tokopedia.com/wikagaugedanvtvvalvemdn/ball-valve-2pc-body-vtv-3-inch-jis-10k-cast-steel" class="btn btn-primary" target="_blank">ADD TO CART</a>
               </center>
@@ -404,13 +410,13 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
           </div>
           <div class="card shadow">
              <div class="img-hover-zoom">
-                <div class="sale" style="height: 30px; background-color: red; position: absolute; margin-right: 50px;width: 70px; text-align: center; color:white;"><label><strong>SALE 0%</strong></label></div>
-              <img class="card-img-top" src="assets/produk/pr4.png" alt="Card image cap">
+                <!-- <div class="sale" style="height: 30px; background-color: red; position: absolute; margin-right: 50px;width: 70px; text-align: center; color:white;"><label><strong>SALE 0%</strong></label></div> -->
+              <img class="card-img-top" src="assets/produk/4.png" alt="Card image cap">
             </div>
             <div class="card-body">
-              <h5 class="card-title text-center"><strong>TEMPERATURE GAUGE A52  & R52</strong></h5>
-                <p class="text-center" style="color: blue;"><strike>Rp.000.0000</strike></p>
-                <p class="text-center">Rp.000.0000</p>
+              <h6 class="card-title text-center"><strong>TEMPERATURE GAUGE A52  & R52</strong></h6>
+                <p class="text-center" style="color: blue;"><strike>Rp.1.210.000</strike></p>
+                <p class="text-center">Rp.1.100.000</p>
                 <center>
                  <a href="https://www.tokopedia.com/wikagaugedanvtvvalvemdn/temperature-gauge-thermometer-wika-r52-4-inch-0-to-100degc" class="btn btn-primary" target="_blank">ADD TO CART</a>
               </center>
@@ -418,13 +424,13 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
           </div>
           <div class="card shadow">
              <div class="img-hover-zoom">
-                <div class="sale" style="height: 30px; background-color: red; position: absolute; margin-right: 50px;width: 70px; text-align: center; color:white;"><label><strong>SALE 0%</strong></label></div>
-               <img class="card-img-top" src="assets/produk/pr5.png" alt="Card image cap">
+               <!--  <div class="sale" style="height: 30px; background-color: red; position: absolute; margin-right: 50px;width: 70px; text-align: center; color:white;"><label><strong>SALE 0%</strong></label></div> -->
+               <img class="card-img-top" src="assets/produk/5.png" alt="Card image cap">
              </div>
             <div class="card-body">
-              <h5 class="card-title text-center"><strong>3 PCS BODY BALL VALVE</strong></h5>
-                <p class="text-center" style="color: blue;"><strike>Rp.000.0000</strike></p>
-                <p class="text-center">Rp.000.0000</p>
+              <h6 class="card-title text-center"><strong>VTV 3PC Body Ball Valve Screw End SS316 - 1/2 Inch</strong></h6>
+                <p class="text-center" style="color: blue;"><strike>Rp.151.250</strike></p>
+                <p class="text-center">Rp.137.500</p>
                 <center>
                   <a href="https://www.tokopedia.com/wikagaugedanvtvvalvemdn/stop-kran-ball-valve-3pc-body-vtv-1-2-inch-screw-end-ss316" class="btn btn-primary" target="_blank">ADD TO CART</a>
 
@@ -442,22 +448,22 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
        
         <h1 class="block__title mb-3">ON SALE</h1>
         <p class="block__paragraph mb-0">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s
-          standard
+         <!--  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s
+          standard -->
         </p>
       </div>
 
       <div class="row align-items-center justify-content-center flex-column-reverse flex-lg-row px-2">
         <div class="card-group">
           <div class="card">
-             <div class="sale" style="height: 30px; background-color: red; position: absolute; margin-right: 50px;width: 70px; text-align: center; color:white;"><label><strong>SALE 0%</strong></label></div>
+             <!-- <div class="sale" style="height: 30px; background-color: red; position: absolute; margin-right: 50px;width: 70px; text-align: center; color:white;"><label><strong>SALE 0%</strong></label></div> -->
             <div class="img-hover-zoom">
-             <img class="card-img-top" src="assets/produk/pr1.png" alt="Card image cap">
+             <img class="card-img-top" src="assets/produk/onsale01.png" alt="Card image cap">
            </div>
             <div class="card-body">
               <h5 class="card-title text-center"><strong>WIKA PRESSURE GAUGE 232.50.100</strong></h5>
-              <p class="text-center" style="color:blue;"><strike>Rp.000.0000</strike></p>
-              <p class="text-center">Rp.000.0000</p>
+              <p class="text-center" style="color:blue;"><strike>Rp.880.000</strike></p>
+              <p class="text-center">Rp.660.000</p>
               <center>
               <a href="https://www.tokopedia.com/wikagaugedanvtvvalvemdn/pressure-gauge-wika-232-50-1-2-npt-size-4-0-to-10-bar" class="btn btn-primary" target="_blank">SHOP NOW</a>
             </center>
@@ -465,13 +471,13 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
           </div>
           <div class="card">
             <div class="img-hover-zoom">
-              <div class="sale" style="height: 30px; background-color: red; position: absolute; margin-right: 50px;width: 70px; text-align: center; color:white;"><label><strong>SALE 0%</strong></label></div>
-              <img class="card-img-top" src="assets/produk/pr2.png" alt="Card image cap">
+              <!-- <div class="sale" style="height: 30px; background-color: red; position: absolute; margin-right: 50px;width: 70px; text-align: center; color:white;"><label><strong>SALE 0%</strong></label></div> -->
+              <img class="card-img-top" src="assets/produk/onsale02.png" alt="Card image cap">
             </div>
             <div class="card-body">
               <h5 class="card-title text-center"><strong>WIKA TEMPERATURE GAUGE A52 - 4 INCH</strong></h5>
-              <p class="text-center" style="color:blue;"><strike>Rp.000.0000</strike></p>
-              <p class="text-center">Rp.000.0000</p>
+              <p class="text-center" style="color:blue;"><strike>Rp.935.000</strike></p>
+              <p class="text-center">Rp.836.000</p>
               <center>
               <a href="https://www.tokopedia.com/wikagaugedanvtvvalvemdn/temperature-gauge-thermometer-wika-a52-4-inch-0-to-200-degc" target="_blank" class="btn btn-primary">SHOP NOW</a>
             </center>
@@ -479,13 +485,13 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
           </div>
           <div class="card">
             <div class="img-hover-zoom">
-              <div class="sale" style="height: 30px; background-color: red; position: absolute; margin-right: 50px;width: 70px; text-align: center; color:white;"><label><strong>SALE 0%</strong></label></div>
-              <img class="card-img-top" src="assets/produk/pr3.png" alt="Card image cap">
+              <!-- <div class="sale" style="height: 30px; background-color: red; position: absolute; margin-right: 50px;width: 70px; text-align: center; color:white;"><label><strong>SALE 0%</strong></label></div> -->
+              <img class="card-img-top" src="assets/produk/onsale03.png" alt="Card image cap">
            </div>
             <div class="card-body">
               <h5 class="card-title text-center"><strong>WIKA TEMPERATURE GAUGE R52 - 4 INCH</strong></h5>
-                <p class="text-center" style="color:blue;"><strike>Rp.000.0000</strike></p>
-                <p class="text-center">Rp.000.0000</p>
+                <p class="text-center" style="color:blue;"><strike>Rp.1,210,000</strike></p>
+                <p class="text-center">Rp.1,100,000</p>
                 <center>
                <a href="https://www.tokopedia.com/wikagaugedanvtvvalvemdn/temperature-gauge-thermometer-wika-r52-4-inch-0-to-00degc" target="_blank" class="btn btn-primary">SHOP NOW</a>
               </center>
@@ -713,14 +719,14 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
   <!-- =================================== -->
 
 <div class="card bg-dark text-white mb-5" id="hero">
-  <img class="card-img" src="assets/produk/baru.webp" alt="Card image">
+  <img class="card-img" src="assets/produk/bener-bawah3.png" alt="Card image">
   <div class="card-img-overlay float-sm-right" id="bg-al" style="background-color: rgba(0, 0, 0, 0.5);">
     <div  id="card3">
-      <div class="bulat rounded-circle" style="height: 200px; width: 200px; background-color: red; border-radius: 100px; position: absolute; margin-left: 500px;"><h1 style="margin-top: 40px; text-align:center;"><strong>Disc<br>10 %</strong></h1></div>
-    <p id="best" class="mb-3" style="font-size: 4vw"><strong>Best Arial View in Town</strong></p>
-    <p style="font-size: 4vw"><strong>30% OFF</strong></h1>
-    <p style="font-size: 2vw">on professional camera drones</p>
-     <a href="https://www.tokopedia.com/wikagaugedanvtvvalvemdn/etalase/wika" target="_blank" class="btn btn-danger  mb-5" id="btn-gbr"><i class="fas fa-shopping-bag"></i> Shop</a>
+     <!--  <div class="bulat rounded-circle" style="height: 200px; width: 200px; background-color: white; border-radius: 100px; position: absolute; margin-left: 500px;"><h1 style="margin-top: 30px; text-align:center; color: red; font-size: 60px;"><strong>Disc<br>10 %</strong></h1></div> -->
+    <p id="best" class="mb-3" style="font-size: 4vw"><strong>Be the First to Know About Deals and </strong></p>
+    <p style="font-size: 4vw"><strong>Special Offers </strong></h1>
+    <p style="font-size: 2vw"></p>
+     <a href="https://t.me/bjmsprice" target="_blank" class="btn btn-danger  mb-5" id="btn-gbr"><i class="fas fa-shopping-bag"></i> Shop</a>
     </div>
   </div>
 </div>
@@ -760,14 +766,19 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
     <div class="container">
       <div class="row px-0 mx-0 justify-content-center align-items-center">
         <div class="block-44__logo-container">
-          <img class="block-44__logo" src="assets/logo/logo2.png">
+          <img class="block-44__logo" src="assets/produk/logo3.png">
         </div>
-            <form class="form-inline">
+            <form class="form-inline" method="post" action="aksi.php">
               <div class="form-group mx-sm-3 mb-2">
-                <input type="email" class="form-control" id="email" placeholder="Enter email" required="">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" required="">
               </div>
-              <button type="submit" class="btn btn-primary mb-2">Subcribe</button>
+            <!--   <button type="submit" name="kirim" class="btn btn-primary mb-2">Subcribe</button> -->
+            <input type="submit" name="kirim"  value="Subcribe" class="btn btn-primary">
             </form> 
+
+           
+
+
       </div>
     </div>
     <hr class="block-44__divider">
@@ -823,6 +834,26 @@ src="https://www.facebook.com/tr?id=215446792369040&ev=PageView&noscript=1"
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+
+      $(document).ready(function(){
+
+        var status = "<?= $_SESSION['status'] ?>";
+        if (status == 'berhasil') {
+          Swal.fire(
+          'Good job!',
+          'Data sent successfully',
+          'success'
+        )
+        <?php unset($_SESSION['status']); ?>
+        }
+
+      })
+     
+    </script>
 
 </body>
 
